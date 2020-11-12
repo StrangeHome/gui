@@ -1,2 +1,1 @@
-# gui
-Graphical user-interface into the strange home system.
+# Graphical user-interface into the strange home system.
