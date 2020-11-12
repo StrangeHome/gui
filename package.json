@@ -1,0 +1,18 @@
+{
+  "name": "smarthome-gui",
+  "version": "0.0.1",
+  "description": "Graphical user-interface into the smart home system.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/StrangeHome/smarthome",
+    "type": "git"
+  },
+  "author": "Hayden McParlane",
+  "license": "GPL2",
+  "dependencies": {
+    "karma": "^5.2.3",
+    "lerna": "^3.22.1",
+    "prettier": "2.1.2",
+    "webpack": "^5.4.0"
+  }
+}
