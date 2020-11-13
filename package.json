@@ -9,10 +9,25 @@
   },
   "author": "Hayden McParlane",
   "license": "GPL2",
+  "scripts": {
+    "prettier": "yarn prettier --check . && yarn prettier --write .",
+    "build": "echo TODO",
+    "test": "echo TODO"
+  },
   "dependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "karma": "^5.2.3",
     "lerna": "^3.22.1",
     "prettier": "2.1.2",
     "webpack": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.12.5",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-polymer": "^0.4.0"
   }
 }

@@ -1,0 +1,19 @@
+{
+    "env": {
+        "es6": true,
+        "shared-node-browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "6"
+    },
+    "extends": [
+        "node",
+        "google",
+        "plugin:polymer/polymer-3",
+        "prettier"
+    ],
+    "plugins":[
+        "html",
+        "polymer"
+    ]
+}
