@@ -2,7 +2,6 @@
   "name": "smarthome-gui",
   "version": "0.0.1",
   "description": "Graphical user-interface into the smart home system.",
-  "main": "index.js",
   "repository": {
     "url": "https://github.com/StrangeHome/smarthome",
     "type": "git"
@@ -11,7 +10,7 @@
   "license": "GPL2",
   "scripts": {
     "prettier": "yarn prettier --check . && yarn prettier --write .",
-    "build": "echo TODO",
+    "build": "npx webpack",
     "test": "echo TODO"
   },
   "dependencies": {
@@ -21,13 +20,17 @@
     "eslint-config-prettier": "^6.15.0",
     "karma": "^5.2.3",
     "lerna": "^3.22.1",
-    "prettier": "2.1.2",
-    "webpack": "^5.4.0"
+    "prettier": "2.1.2"
   },
   "devDependencies": {
     "@babel/parser": "^7.12.5",
+    "@polymer/polymer": "^3.4.1",
     "eslint-config-recommended": "^4.1.0",
     "eslint-plugin-html": "^6.1.1",
-    "eslint-plugin-polymer": "^0.4.0"
-  }
+    "eslint-plugin-polymer": "^0.4.0",
+    "polymer-cli": "^1.9.11",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "private":true
 }
