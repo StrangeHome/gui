@@ -1,4 +1,4 @@
-import {LitElement, html} from '@polymer/element';
+import {LitElement, html} from '@polymer/lit-element';
 
 export class StrangeApp extends LitElement {
 
